@@ -1,0 +1,67 @@
+/*James Redmond 4/1/22 */
+@font-face {
+	font-family: 'chunk';
+	src: url('../fonts/chunkfive-regular-webfont.woff') format('woff'),
+	 url('../fonts/chunkfive-regular-webfont.woff2') format('woff2');
+}
+
+
+
+#outerwrapper {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+.floatleft { 
+float: left;
+margin-right: 3em;
+}
+
+.floatright {
+float: right;
+margin-left: 3em;
+
+}
+
+main, footer { 
+	clear: both;
+	background-color: #C5A98B;
+	padding: 10px;
+}
+
+body {
+	background-color: #B8D1EB;
+	color: #000000;
+	font-family: 'Times New Roman',Times,Serif;
+}
+
+nav ul{
+	list-style: none;
+}
+
+h1 {
+	font-family: 'BIZ UDMincho', serif;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: lighter;
+	font-size: 3em;
+}
+
+h2 {
+	font-family: 'chunk';
+	font-weight: normal;
+	font-style: italic;
+}
+
+main ul {
+	list-style-image: url('../images/tomato.png');
+}
+
+footer {
+	font-size: .75em;
+	text-align: center;
+	background-color: brown;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
