@@ -1,0 +1,31 @@
+/* James Redmond 4/8/22 */
+
+table {
+  width: 100%;
+  background-image: linear-gradient(#FFFFFF, #F0F9E6);
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #DFA478; 
+  border-style: solid;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+table td, th {
+  border-width: 2px;
+  border-color: #DFA478;
+  border-style: solid;
+  padding: 15px;
+}
+
+table thead {
+  background-color: #DFA478;
+}
+
+nav {
+  clear: left;
+}
+nav ul li {
+  list-style: none;
+  font-size: 1.5em;
+}

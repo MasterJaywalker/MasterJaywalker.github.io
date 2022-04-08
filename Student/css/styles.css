@@ -1,0 +1,54 @@
+/*James Redmond 4/8/22 */
+@font-face {
+	font-family: 'sink';
+	src: url("../fonts/sinkinsans-300light-webfont.woff") format("woff"),
+	url("../fonts/sinkinsans-300light-webfont.woff2") format("woff2");
+}
+html {
+	background-image: url("../images/jewelry.jpg");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+main {
+background-image: linear-gradient(#ffffff, #f0f9e6); 
+padding: 10px;
+margin: 20px;
+border-radius: 2em;
+font-size: 1.25em;
+font-family:Arial, Helvetica, sans-serif
+}
+	 
+#outerwrapper {	
+	border-radius: 20%;
+	background: rgba(243,205,170, 0.4);
+	width: 70%;
+	margin-left: 15%;
+}
+
+footer {
+	font-size: 1em;
+	text-align: center;
+	padding: 10px;
+}
+
+header img {
+	float: left;
+	border-radius: 50%;
+}
+
+.addrightmargin {
+	margin-right: 10%;
+}
+
+header h1 {
+	font-family: 'Pacifico',cursive,'Quicksand',sans-serif;
+	font-size: 4em;
+}
+
+header h2 {
+	font-family: 'sink';
+	font-style: italic;
+	font-size: 2em;
+}
