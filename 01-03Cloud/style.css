@@ -1,0 +1,18 @@
+body {
+  background-color: lightblue;
+  text-align: center;
+}
+
+.wrapper{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+img {
+  transition: 1s;
+}
+
+img:hover {
+  transform: translatey(50px) scale(2) rotatez(180deg);
+}
