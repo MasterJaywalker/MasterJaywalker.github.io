@@ -1,0 +1,28 @@
+.landingPage {
+    text-align: center;
+    font-size: 5em;
+    color: whitesmoke;
+    background-image: url(../images/landingPage.jpg);
+    background-size: cover;
+    width: 100%;
+}
+
+.landingContainer {
+    padding: 1em;
+}
+
+.landingPage h1, a h2 {
+    background-color: gray;
+    opacity: 75%;
+    margin: 2em;
+    padding: 1em;
+}
+
+.landingPage a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.landingPage a:hover {
+    color: black;
+}
